@@ -1,0 +1,280 @@
+@font-face {
+    font-family: "coco";
+    src: url('../../fonts/Coco-Gothic-Bold-trial.woff');
+}
+
+@font-face {
+    font-family: "sfb";
+    src: url('../../fonts/SFProText-Bold.woff');
+}
+
+@font-face {
+    font-family: "sfr";
+    src: url('../../fonts/SFProText-Regular.woff');
+}
+
+@media only screen {
+    .header {
+        background-color: #273742;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: fit-content;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+        z-index: 100;
+        border-bottom: 2px solid #2f3f4b;
+    }
+
+    .menu-tabs {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .m-tab {
+        color: rgba(255, 255, 255, 0.795);
+        font-size: 14px;
+        font-family: 'sfr';
+        cursor: pointer;
+    }
+
+    .m-tab:hover {
+        color: #13aa52;
+    }
+
+    .contact-wr {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: transparent;
+        padding: 20px;
+        transform: translate(0px, 100px);
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        background-color: #1f2f384f;
+    }
+
+    .contact-card {
+        background-color: #1f2f38;
+        padding: 30px 20px 30px 20px;
+        --tw-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+        box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+    }
+
+    .c-title {
+        text-align: start;
+        font-size: 14px;
+        color: #13aa52;
+        font-family: 'sfb';
+        margin-bottom: 15px;
+    }
+
+    .c-tab {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: rgba(255, 255, 255, 0.795);
+        font-size: 20px;
+        font-family: 'sfr';
+        gap: 40px;
+    }
+
+    .copy-btn {
+        background-color: #13aa5228;
+        padding: 10px 20px 10px 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    }
+
+    .copy-icon {
+        fill: #13aa52;
+        height: 20px;
+    }
+
+    .brand-wr {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .brand-name {
+        font-family: 'sfb';
+        font-size: 18px;
+        color: #13aa52;
+    }
+
+    .brand-logo {
+        height: 30px;
+        width: auto;
+    }
+
+    .menu-icon {
+        height: 25px;
+        fill: white;
+    }
+}
+
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+    .header {
+        background-color: #273742;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: fit-content;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+        z-index: 100;
+        border-bottom: 2px solid #2f3f4b;
+    }
+
+    .brand-wr {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .brand-name {
+        font-family: 'sfb';
+        font-size: 18px;
+        color: #13aa52;
+    }
+
+    .brand-logo {
+        height: 30px;
+        width: auto;
+    }
+
+    .menu-icon {
+        height: 25px;
+        fill: white;
+    }
+}
+
+@media only screen and (min-width: 64.063em) and (max-width: 90em) {
+    .header {
+        background-color: #273742;
+        position: sticky;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: fit-content;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 100px 20px 100px;
+        z-index: 100;
+        border-bottom: 2px solid #2f3f4b;
+        position: relative;
+    }
+
+    .brand-wr {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .brand-name {
+        font-family: 'sfb';
+        font-size: 18px;
+        color: #13aa52;
+    }
+
+    .brand-logo {
+        height: 30px;
+        width: auto;
+    }
+
+    .menu-icon {
+        height: 25px;
+        fill: white;
+        display: none;
+    }
+
+    .menu-tabs {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .m-tab {
+        color: rgba(255, 255, 255, 0.795);
+        font-size: 16px;
+        font-family: 'sfr';
+        cursor: pointer;
+    }
+
+    .m-tab:hover {
+        color: #13aa52;
+    }
+
+    .contact-wr {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: transparent;
+        padding: 20px;
+        transform: translate(0px, 100px);
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        background-color: #1f2f384f;
+    }
+
+    .contact-card {
+        background-color: #1f2f38;
+        padding: 30px 60px 30px 60px;
+        --tw-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+        box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+    }
+
+    .c-title {
+        text-align: start;
+        font-size: 14px;
+        color: #13aa52;
+        font-family: 'sfb';
+        margin-bottom: 15px;
+    }
+
+    .c-tab {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: rgba(255, 255, 255, 0.795);
+        font-size: 20px;
+        font-family: 'sfr';
+        gap: 40px;
+    }
+
+    .copy-btn {
+        background-color: #13aa5228;
+        padding: 10px 20px 10px 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    }
+
+    .copy-icon {
+        fill: #13aa52;
+        height: 20px;
+    }
+}
