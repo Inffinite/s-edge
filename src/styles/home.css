@@ -41,8 +41,8 @@
         bottom: 0;
     }
     .satelite {
-        height: 140px;
-        margin-top: 30px;
+        height: 120px;
+        margin-top: 10px;
         width: auto;
         transform: rotate(30deg);
     }
@@ -262,6 +262,58 @@
         color: #13aa52;
         font-size: 14px;
         font-family: 'sfr';
+    }
+
+    .talk {
+        margin: 60px 20px 40px 20px;
+    }
+
+    .t-info {
+        border: 2px solid #2f3f4b;
+        margin-top: 20px;
+        padding: 20px;
+    }
+
+    .t-content-wr {
+        padding-top: 20px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+
+    .t-name {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 15px;
+        font-family: 'sfb';
+        color: #13aa52;
+        font-size: 16px;
+    }
+
+    .t-img {
+        height: 40px;
+        width: 40px;
+        border-radius: 50px;
+    }
+
+    .t-message {
+        color: rgba(255, 255, 255, 0.986);
+        font-family: 'sfr';
+        margin-top: 20px;
+        font-size: 16px;
+        text-align: start;
+    }
+
+    .start {
+        margin-top: 30px;
+        width: 100%;
+        padding: 12px;
+        outline: none;
+        border: none;
+        background-color: #13aa52;
+        font-family: 'sfb';
+        font-size: 16px;
+        color: white;
     }
 }
 
@@ -795,5 +847,60 @@
         color: #13aa52;
         font-size: 14px;
         font-family: 'sfr';
+    }
+
+    .talk {
+        margin: 80px 0px 40px 0px;
+    }
+
+    .t-info {
+        border: 2px solid #2f3f4b;
+        margin-top: 20px;
+        padding: 20px;
+    }
+
+    .t-content-wr {
+        padding-top: 0px;
+        margin: 30px 100px 50px 100px;
+        display: grid;
+        gap: 20px;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+
+    .t-name {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 15px;
+        font-family: 'sfb';
+        color: #13aa52;
+        font-size: 16px;
+    }
+
+    .t-img {
+        height: 40px;
+        width: 40px;
+        border-radius: 50px;
+    }
+
+    .t-message {
+        color: rgba(255, 255, 255, 0.986);
+        font-family: 'sfr';
+        margin-top: 20px;
+        font-size: 16px;
+        text-align: start;
+    }
+
+    .start {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        width: fit-content;
+        padding: 12px 30px 12px 30px;
+        outline: none;
+        border: none;
+        background-color: #13aa52;
+        font-family: 'sfb';
+        font-size: 16px;
+        color: white;
     }
 }

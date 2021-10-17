@@ -32,7 +32,7 @@
 
     <div class="satelite-wr">
         <div class="s-container"></div>
-        <img src="../assets/pexels.png" class="satelite">
+        <img src="https://firebasestorage.googleapis.com/v0/b/fir-edge.appspot.com/o/pexels.png?alt=media&token=0903bacc-0e6c-4364-bbac-84a5ba785df9" class="satelite">
       </div>
     </div>
 
@@ -143,6 +143,29 @@
       </div>
       </div>
     </div>
+
+    <div class="talk">
+      <div class="p-title">
+        <span class="white">Testimonials</span>
+      </div>
+      <div class="t-content-wr">
+        <div v-for="(testimonial, i) in testimonials" :key="i" class="t-info">
+          <div class="t-name">
+            <img :src="testimonial.img" class="t-img">
+            {{ testimonial.name }}
+          </div>
+          <div class="t-message">
+            {{ testimonial.message }}
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <button class="start">
+          Get Started
+        </button>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -156,6 +179,28 @@ export default {
   },
   data(){
     return {
+      testimonials: [
+        {
+          name: 'Ella',
+          img: 'https://randomuser.me/api/portraits/women/79.jpg',
+          message: 'Phenomenal service, reliable in bad weather'
+        },
+        {
+          name: 'Patrice',
+          img: 'https://randomuser.me/api/portraits/men/59.jpg',
+          message: 'I\'m loving the after-purchase service'
+        },
+        {
+          name: 'Mike',
+          img: 'https://randomuser.me/api/portraits/men/55.jpg',
+          message: 'Would highly reccomend'
+        },
+        {
+          name: 'Boogie',
+          img: 'https://randomuser.me/api/portraits/lego/0.jpg',
+          message: 'Not as expensive as the rest'
+        },
+      ],
       packages: [
         {
           speed: '5',
